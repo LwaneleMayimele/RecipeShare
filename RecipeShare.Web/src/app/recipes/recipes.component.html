@@ -1,0 +1,18 @@
+<h2>Recipes</h2>
+<button routerLink="/new-recipe">Add New Recipe</button>
+
+<ul class="recipes">
+  <li *ngFor="let recipe of recipes" (click)="onSelect(recipe)" [class.selected]="recipe === selectedRecipe">
+    <span class="badge">{{recipe.id}}</span> {{recipe.title}} ({{recipe.cookingTime}} mins)
+    <button class="delete" (click)="onDelete(recipe); $event.stopPropagation()">x</button>
+  </li>
+</ul>
+
+<div *ngIf="selectedRecipe">
+  <h2>{{selectedRecipe?.title| uppercase}} Details</h2>
+  <div><span>Id: </span>{{selectedRecipe?.id}}</div>
+  <div><span>Cooking Time: </span>{{selectedRecipe?.cookingTime}} minutes</div>
+  <div><span>Dietary Tags: </span>{{selectedRecipe?.dietaryTags}}</div>
+  <button (click)="selectedRecipe = undefined">Close</button>
+  <button [routerLink]="['/edit-recipe', selectedRecipe?.id]">Edit</button>
+</div>

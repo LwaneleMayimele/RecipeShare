@@ -1,0 +1,35 @@
+<h2>{{isEditMode ? 'Edit' : 'Add'}} Recipe</h2>
+
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="title">Title: </label>
+    <input type="text" id="title" required [(ngModel)]="recipe.title" name="title">
+  </div>
+
+  <div>
+    <label for="ingredients">Ingredients (JSON array): </label>
+    <textarea id="ingredients" [(ngModel)]="recipe.ingredients" name="ingredients" rows="4"></textarea>
+  </div>
+
+  <div>
+    <label for="steps">Steps (JSON array): </label>
+    <textarea id="steps" [(ngModel)]="recipe.steps" name="steps" rows="4"></textarea>
+  </div>
+
+  <div>
+    <label for="cookingTime">Cooking Time (minutes): </label>
+    <input type="number" id="cookingTime" required [(ngModel)]="recipe.cookingTime" name="cookingTime" min="1">
+  </div>
+
+  <div>
+    <label for="dietaryTags">Dietary Tags (comma-separated): </label>
+    <input type="text" id="dietaryTags" [(ngModel)]="recipe.dietaryTags" name="dietaryTags">
+  </div>
+
+  <button type="submit">{{isEditMode ? 'Update' : 'Add'}} Recipe</button>
+  <button type="button" (click)="goToRecipes()">Cancel</button>
+</form>
+
+<div *ngIf="errorMessage" class="error">
+  {{errorMessage}}
+</div>
