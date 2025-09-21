@@ -7,9 +7,9 @@ import { Recipe } from '../models/Recipe';
   providedIn: 'root'
 })
 export class RecipeService {
-  private apiUrl = 'https://localhost:7073/api/recipes'; // Replace PORT with your API's port
+  private apiUrl = 'https://localhost:7145/api/recipes';
 
-  constructor(private http: HttpClient) { }
+  constructor(private readonly http: HttpClient) { }
 
   getRecipes(): Observable<Recipe[]> {
     return this.http.get<Recipe[]>(this.apiUrl);

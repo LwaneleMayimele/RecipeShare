@@ -1,7 +1,9 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { provideRouter, Routes } from '@angular/router';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeFormComponent } from './recipe-form/recipe-form.component';
+import { provideHttpClient } from '@angular/common/http';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/recipes', pathMatch: 'full' },
@@ -10,8 +12,11 @@ export const routes: Routes = [
   { path: 'edit-recipe/:id', component: RecipeFormComponent }
 ];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
+
+bootstrapApplication(AppComponent, {
+  providers: [
+    provideRouter(routes),
+    provideHttpClient()
+  ]
+}).catch(err => console.error(err));
 export class AppRoutingModule { }

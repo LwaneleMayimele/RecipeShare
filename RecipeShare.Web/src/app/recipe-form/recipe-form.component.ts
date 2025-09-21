@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { Recipe } from '../models/Recipe';
 import { RecipeService } from '../services/recipe.service';
-import { FormsModule, NgModel } from '@angular/forms';
+import { FormsModule} from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
 
@@ -19,9 +19,9 @@ export class RecipeFormComponent implements OnInit {
   errorMessage: string = '';
 
   constructor(
-    private route: ActivatedRoute,
-    private router: Router,
-    private recipeService: RecipeService
+    private readonly route: ActivatedRoute,
+    private readonly router: Router,
+    private readonly recipeService: RecipeService
   ) { }
 
   ngOnInit(): void {
@@ -62,7 +62,6 @@ export class RecipeFormComponent implements OnInit {
 
   private handleError(error: any): void {
     console.error(error);
-    // Simple error handling. You can parse the API error response here.
     this.errorMessage = 'An error occurred. Please check your input and try again.';
   }
 }

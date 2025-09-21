@@ -1,27 +1,27 @@
 import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../models/Recipe';
 import { RecipeService } from '../services/recipe.service';
-import { UpperCasePipe } from '@angular/common';
+import { CommonModule, UpperCasePipe } from '@angular/common';
 import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-recipes',
   templateUrl: './recipes.component.html',
   styleUrls: ['./recipes.component.css'],
-  imports:[UpperCasePipe,RouterLink],
+  imports:[UpperCasePipe,RouterLink, CommonModule],
   standalone: true
 })
 export class RecipesComponent implements OnInit {
   recipes: Recipe[] = [];
   selectedRecipe?: Recipe;
 
-  constructor(private recipeService: RecipeService) { }
+  constructor(private readonly recipeService: RecipeService) { }
 
   ngOnInit(): void {
-    this.getRecipes();
+    this.getRecipe();
   }
 
-  getRecipes(): void {
+  getRecipe(): void {
     this.recipeService.getRecipes()
       .subscribe(recipes => this.recipes = recipes);
   }
