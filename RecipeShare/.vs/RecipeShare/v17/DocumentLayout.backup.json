@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D61778C5-1F80-4791-8889-09B98BB8684F}|..\\RecipeShare.API\\RecipeShare.API.csproj|c:\\users\\lwanem01\\source\\repos\\new folder\\recipeshare.api\\migrations\\20250921013928_renamedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61778C5-1F80-4791-8889-09B98BB8684F}|..\\RecipeShare.API\\RecipeShare.API.csproj|c:\\users\\lwanem01\\source\\repos\\new folder\\recipeshare.api\\models\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61778C5-1F80-4791-8889-09B98BB8684F}|..\\RecipeShare.API\\RecipeShare.API.csproj|c:\\users\\lwanem01\\source\\repos\\new folder\\recipeshare.api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61778C5-1F80-4791-8889-09B98BB8684F}|..\\RecipeShare.API\\RecipeShare.API.csproj|c:\\users\\lwanem01\\source\\repos\\new folder\\recipeshare.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61778C5-1F80-4791-8889-09B98BB8684F}|..\\RecipeShare.API\\RecipeShare.API.csproj|c:\\users\\lwanem01\\source\\repos\\new folder\\recipeshare.api\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61778C5-1F80-4791-8889-09B98BB8684F}|..\\RecipeShare.API\\RecipeShare.API.csproj|c:\\users\\lwanem01\\source\\repos\\new folder\\recipeshare.api\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61778C5-1F80-4791-8889-09B98BB8684F}|..\\RecipeShare.API\\RecipeShare.API.csproj|c:\\users\\lwanem01\\source\\repos\\new folder\\recipeshare.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 376,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250921013928_renamedModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Migrations\\20250921013928_renamedModel.cs",
+              "RelativeDocumentMoniker": "..\\RecipeShare.API\\Migrations\\20250921013928_renamedModel.cs",
+              "ToolTip": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Migrations\\20250921013928_renamedModel.cs",
+              "RelativeToolTip": "..\\RecipeShare.API\\Migrations\\20250921013928_renamedModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T01:39:54.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "..\\RecipeShare.API\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "..\\RecipeShare.API\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T01:35:08.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "..\\RecipeShare.API\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Models\\Recipe.cs",
+              "RelativeToolTip": "..\\RecipeShare.API\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T01:29:04.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\RecipeShare.API\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "..\\RecipeShare.API\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T01:28:17.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Models\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "..\\RecipeShare.API\\Models\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Models\\DbInitializer.cs",
+              "RelativeToolTip": "..\\RecipeShare.API\\Models\\DbInitializer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T01:27:31.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Program.cs",
+              "RelativeDocumentMoniker": "..\\RecipeShare.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\Program.cs",
+              "RelativeToolTip": "..\\RecipeShare.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T01:21:36.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\RecipeShare.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lwanem01\\source\\repos\\New folder\\RecipeShare.API\\appsettings.json",
+              "RelativeToolTip": "..\\RecipeShare.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-21T01:19:15.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 24,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
